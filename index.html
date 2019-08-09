@@ -1,0 +1,264 @@
+<!DOCTYPE html><html lang='en' class=''>
+<head><script src='https://static.codepen.io/assets/editor/live/console_runner-1df7d3399bdc1f40995a35209755dcfd8c7547da127f6469fd81e5fba982f6af.js'></script><script src='https://static.codepen.io/assets/editor/live/css_reload-5619dc0905a68b2e6298901de54f73cefe4e079f65a75406858d92924b4938bf.js'></script><meta charset='UTF-8'><meta name="robots" content="noindex"><link rel="shortcut icon" type="image/x-icon" href="https://static.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico" /><link rel="mask-icon" type="" href="https://static.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111" /><link rel="canonical" href="https://codepen.io/achinchen/pen/BxBLzv" />
+<style class="cp-pen-styles">* {
+   padding: 0; margin: 0;
+   vertical-align: top;
+   box-sizing: border-box;
+}
+body {
+   background: white;
+   overflow: hidden;
+}
+#resume {
+   border:30px solid rgb(24, 157, 132);
+}
+.title {
+   font-size: 1.3em;
+   font-weight:450;
+   letter-spacing: 2px;
+   text-align: center;
+   text-transform: uppercase;
+}
+.color {
+   color: rgb(3, 124, 108);
+}
+.lowercase {
+   text-transform: lowercase;
+}
+.top {   
+   height: 180px;
+}
+.top1 {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 100%;   height: 200px;
+}
+.top2 {
+   display: flex;
+   flex-flow: column wrap;
+   margin-left: 30px;
+}
+.name {
+   font-size: 2em;
+   font-weight: 350;
+   letter-spacing: 4px;
+   margin-bottom: 8px;
+}
+.describe {
+   font-size: 14px;
+   letter-spacing: 4.5px;
+   margin: 1px 0 0 3px;
+}
+.profilo_photo {
+   width: 120px; height: 120px;
+   border-radius: 100%;
+}
+.left {
+   display: inline-block;
+   width: 40%; height: 150px;
+   box-sizing: border-box;
+   margin-top: 40px;
+   margin-left: 15px;
+}
+.contact > .title {
+   margin:0 0 15px 30px;
+}
+.contact_block {
+   font-size: 14px;
+   display: flex;
+   justify-content: center;
+}
+.contact_title {
+   font-weight: 340;
+   letter-spacing: 1px;
+   text-align: right;
+   text-transform: uppercase;
+   float: left;
+   margin-right: 20px;
+   list-style: none;
+}
+.contact_content {
+   font-weight: 330;
+   float: right;
+   list-style: none;
+}
+.right {
+   display: inline-block;
+   width: 50%; height: 150px;
+   box-sizing: border-box;
+   margin-top: 40px;
+   margin-right: 15px;
+}
+.hobby_title {
+   margin-bottom: 15px;
+}
+.row2, .row3, .row4 {
+   margin-left: 15px;
+   dispaly: inline-block;
+}
+.hobby_content {
+   width: 100%;
+   display: inline-block;
+   align-content: center;
+}
+.col3, .col5, .col7 {
+   font-size: 14px;
+   font-weight: 340;
+   letter-spacing: 1px;
+   text-align: right;
+   text-transform: uppercase;
+   float: left;
+   margin-top: -3px;
+}
+.col4, .col6, .col8 {
+   border: 1px solid gray;
+   weight: 8%; height: 16px;
+   margin-left: 190px;
+   margin-top: 5px;
+   margin-right: auto;
+}
+.overcooked {
+   background: rgb(24, 157, 132);
+   width: 57%; height: 12px;
+   margin: 1px;
+}
+.mariokart {
+   background: rgb(24, 157, 132);
+   width: 80%; height: 12px;
+   margin: 1px;
+}
+.supermario {
+   background: rgb(24, 157, 132);
+   width: 100%; height: 12px;
+   margin: 1px;
+}
+.bottom {
+   height: 200px;
+   text-align: center;
+}
+.study {
+   text-align: left;
+   margin-left: 16%;
+   margin-bottom: 15px;
+}
+.study_content {
+   font-size: 14px;
+   font-weight: 340;
+   letter-spacing: 1px;
+   width: 400px;
+   display: flex;
+   justify-content: space-between;
+   text-align: center;
+   margin-left: 16%;
+}
+.circle {
+   border: 1px solid gray;
+   border-radius: 100%;
+   width: 50px; height: 50px;
+   position: relative;
+   margin: 5px auto 0 auto;
+   overflow: hidden;
+}
+
+.circle_content {
+   background: rgb(24, 157, 132);
+   width: 50px; height: 50px;
+   position: absolute;
+}
+.c1 {
+   left: 50%;
+}
+.c1-1 {
+   transform: rotate(-15deg);
+   left: 10%;
+   top: 47%;
+}
+.c2 {
+   left: 49%
+}
+.c2-1 {
+   transform: rotate(-40deg);
+   left: 20%;
+   top: 45%;
+}
+.c3 {
+   left: 49%;
+}
+.c4 {
+   left: 50%;
+   top: -50%;
+   overflow: hidden;
+}
+.c4-1 {
+   width: 75px; height: 75px;
+   background: white;
+   transform: rotate(45deg);
+   left: 30%;
+   top: 25%;
+}</style></head><body>
+<div id="resume">
+<div class="top">
+<div class="top1">
+<img class="profilo_photo" src="https://scontent.ftpe7-1.fna.fbcdn.net/v/t1.0-9/12047099_891716657582751_1693221429917055017_n.jpg?_nc_fx=ftpe7-3&_nc_cat=0&_nc_eui2=v1%3AAeF5kJ7zNGwOKZQ7DO4mqXQHZvLC6jy73B0pqehdewdE9HuA_84oVYL3SLVzfK7Gkfpk-94yeXYzJhWfKPC2Xa05yU80sywYFWO2-2bAyylO2Q&oh=79a6d17a3a0b2c631f10067103428ceb&oe=5B655A75" alt="profilo_photo">
+<div class="top2">
+<h2 class="name">PRAJWAL<hr>KOTIAN</h2>
+<p class="describe">Creative is never ending.</p>
+</div>
+</div>
+</div>
+<div class="left">
+<div class="contact">
+<h2 class="title">contact</h2>
+<div class="contact_block">
+<ul class="contact_title">
+<li>tel</li>
+<li>adr</li>
+<li>email</li>
+</ul><ul class="contact_content">
+<li>+886-123456788</li>
+<li>Taipei, Taiwan</li>
+<li class="lowercase"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="f992968d909897898b98938e9895cbc9c9c8b99e94989095d79a9694">[email&#160;protected]</a></li>
+</ul>
+</div>
+</div>
+</div><div class="right">
+<div class="hobby_title">
+<div class="col1"></div>
+<div class="col2 title">hobby</div>
+</div>
+<div class="hobby_content">
+<div class="row2">
+<div class="col3">READING NEWS PAPER</div>
+<div class="col4 bar">
+<div class="NEWS PAPER"></div></div>
+</div>
+<div class="row3">
+<div class="col5">LISTENING SONGS</div>
+<div class="col6">
+<div class="SONGS"></div></div>
+</div>
+</div>
+</div>
+<div class="bottom">
+<h2 class="title study">study</h2>
+<div class="study_content">
+<div class="SCIENCE">SCIENCE
+<div class="circle">
+<div class="circle_content c1"></div>
+<div class="circle_content c1-1"></div>
+</div>
+</div>
+<div class="culture">Culture
+<div class="circle"><div class="circle_content c2"></div><div class="circle_content c2-1"></div></div>
+</div>
+<div class="design">Design
+<div class="circle"><div class="circle_content c3"></div></div>
+</div>
+<div class="code">Code
+<div class="circle"><div class="circle_content c4"><div class="circle_content c4-1"></div></div></div></div>
+</div>
+</div>
+</div>
+</div>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body></html>
